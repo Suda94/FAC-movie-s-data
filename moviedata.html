@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to Styles.css -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<title>Movie Data</title>
+
+<body>
+    <!-- head -->
+
+    <head>
+        <h1><a class="h1Anchor">MovieFLex</h1>
+    </head>
+
+    <!-- main -->
+    <main>
+        <!-- Sort by name Btn -->
+        <button class="sort-btn" id="sort-btnID" type="submit">Sort <A-Z>A-Z</A-Z></button><br />
+
+        <div class="movie-form">
+            <input type="text" placeholder="Title" id="inputMovieName" class="boxmodel" />
+
+            <input type="text" placeholder="Year" id="inputMovieYear" class="boxmodel" />
+
+            <input type="text" placeholder="Add Plot" id="inputMoviePlot" class="boxmodel" />
+
+            <input type="text" placeholder="Casts" id="inputMovieCast" class="boxmodel" />
+
+            <input type="number" placeholder="Rate" id="inputMovieRating" class="boxmodel" />
+
+            <input type="number" placeholder="Run Time" id="inputMovieRunTime" class="boxmodel" />
+
+            <button type="button" class="sort-btn" onclick="inputMovie()">Add</button>
+        </div>
+
+        <!-- Data Display -->
+        <div class="movie-Container"></div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>Movie Data (2022)</p>
+    </footer>
+    <!-- Link to script.js -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>

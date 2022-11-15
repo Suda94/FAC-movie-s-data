@@ -1,0 +1,103 @@
+styles.css * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(3, 0, 46);
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+.h1Anchor {
+  color: rgb(247, 247, 247);
+  background-color: orange;
+  border-radius: 100px/50px;
+}
+
+.sort-btn {
+  margin-left: 25px;
+  padding: 7px 7px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 10px;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+.sort-btn:hover {
+  color: rgb(10, 2, 2);
+  background-color: #ffffff;
+}
+
+.movie-form {
+  margin: 5px 25px 5px 25px;
+  padding-bottom: 5px;
+  background-color: gray;
+  border-radius: 300px/100px;
+}
+
+.boxmodel {
+  background-color: rgb(220, 248, 248);
+  border: 2rem;
+  color: #fff;
+  border-radius: 4rem;
+}
+
+.gap {
+  margin-bottom: 5px;
+}
+
+/* Main Div */
+.movie-Container {
+  margin: 5px 25px 5px 25px;
+}
+
+/* Movie Div */
+.movie-wrapper {
+  margin-bottom: 10px;
+  border: #ffffff groove;
+  padding: 5px;
+  color: #ffffff;
+  float: center;
+  background-color: gray;
+}
+
+.movie-poster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  padding: 1px;
+  background-color: gray;
+}
+
+.movie-poster:hover {
+  background-color: hotpink;
+  opacity: 90%;
+}
+
+.movie-name {
+  text-align: center;
+  color: #fff;
+}
+
+.movie-plot {
+  color: #fff;
+}
+
+.movie-cast {
+  color: #fff;
+}
+
+.movie-rating {
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+}
