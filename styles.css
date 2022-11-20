@@ -22,7 +22,7 @@ h1 {
   margin-left: 25px;
   padding: 7px 7px;
   cursor: pointer;
-  color: #fff;
+  color: rgb(255, 255, 255);
   background-color: #000000;
   border-radius: 10px;
   font-family: "Courier New", Courier, monospace;
@@ -44,7 +44,7 @@ h1 {
 .boxmodel {
   background-color: rgb(220, 248, 248);
   border: 2rem;
-  color: #fff;
+  color: rgb(12, 9, 9);
   border-radius: 4rem;
 }
 
