@@ -4,7 +4,7 @@ styles.css * {
 }
 
 body {
-  background-color: rgb(3, 0, 46);
+  background-color: rgb(161, 102, 102);
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
   padding: 7px 7px;
   cursor: pointer;
   color: rgb(255, 255, 255);
-  background-color: #000000;
+  background-color: #10312d;
   border-radius: 10px;
   font-family: "Courier New", Courier, monospace;
   font-size: 20px;
@@ -37,8 +37,6 @@ h1 {
 .movie-form {
   margin: 5px 25px 5px 25px;
   padding-bottom: 5px;
-  background-color: gray;
-  border-radius: 300px/100px;
 }
 
 .boxmodel {
