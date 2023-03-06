@@ -2,3 +2,4 @@
 - using HTML, and movies object that is populate with data from a JavaScript object.
 - allow the user to sort the data by A-Z.
 - add a new movie to the movieData object.
+- Improve on the data of the movies 
