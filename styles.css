@@ -1,10 +1,10 @@
-styles.css * {
+ * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: rgb(161, 102, 102);
+  background-image: radial-gradient(circle, #051937, #004d7a, #008793, #00bf72, #a8eb12);
 }
 
 h1 {
